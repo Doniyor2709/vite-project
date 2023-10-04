@@ -24,7 +24,6 @@ const StudentHeader = ({ setSearch, search, group, setGroup }) => {
           ))}
         </Form.Select>
       </InputGroup.Text>
-      {/* <div className="alert alert-warning">{sum}</div> */}
     </InputGroup>
   );
 };

@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 
 import { groups } from "../../data/groups";
 
+
+
 const StudentForm = forwardRef(
   (
     {
@@ -18,8 +20,8 @@ const StudentForm = forwardRef(
   ) => {
     console.log("StudentForm");
     return (
-      <Form noValidate validated={validated} onSubmit={handleSubmit}>
-        <Form.Group className="mb-3" controlId="firstName">
+      <Form noValidate validated={validated} onSubmit={handleSubmit} className="form-left">
+        <Form.Group className="mb-3" controlId="Product">
           <Form.Label>Product Name</Form.Label>
           <Form.Control
             ref={ref}

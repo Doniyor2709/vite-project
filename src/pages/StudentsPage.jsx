@@ -115,12 +115,9 @@ const StudentsPage = () => {
   return (
     <Container className="pt-3">
       <Row>
+
         <Col md="4">
           <StudentForm ref={firstNameRef} {...studentFormProps} />
-        </Col>
-        <Col md="8">
-          <StudentHeader {...studentHeaderProps} />
-          <StudentTable {...studentTableProps} />
         </Col>
       </Row>
     </Container>
